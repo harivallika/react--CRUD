@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import axios from  "axios"
 import { Link } from 'react-router-dom'
 
@@ -22,7 +22,7 @@ const Create = () => {
 
   return (
     <div>
-      <>
+      <> 
        <form action="">
         name : <input type="text" name="" id="" onChange={(e) => setName(e.target.value) } />
         <br />
